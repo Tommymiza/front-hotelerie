@@ -1,0 +1,39 @@
+.etab-card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  .etab-info{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}
+.pg-etab{
+  &>div>div>h1{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pg-etab{
+    &>div>div>h1{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}

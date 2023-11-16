@@ -1,0 +1,25 @@
+.nav-main {
+  position: fixed;
+  background-color: rgb(255, 255, 255, 0.95);
+  color: var(--black);
+  z-index: 300;
+  backdrop-filter: blur(15px);
+  width: 100%;
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    #logo {
+      h1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--black);
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      color: var(--black);
+    }
+  }
+}
